@@ -46,4 +46,12 @@ to import CSV file into a MYSQL database, then present all the imported data on 
 data).
 
 ## Third Task (Task No.4 in sheet)
-
+to make registration and login system
+- * Create a simple registration form submission and save it into the database
+- * Expected user to fill up a form that contains name, email, password, phone number and address
+- * Upon the submission, verify the user input
+- * Save the user registration detail into a user table
+- * Display thank you information for successful registration
+- * Take the user to login page
+- * Expected user to login using the registered email address and  password
+- * Display "Welcome {name}"
