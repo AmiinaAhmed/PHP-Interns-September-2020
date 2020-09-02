@@ -14,6 +14,7 @@ Technical Skills Tasks for Backend Interns 2020 at WebGen Studio  Company.
 
 use `git clone https://github.com/AmiinaAhmed/WebGenStudio-Intern-2020.git` or download .zip file
 
+
 ## Linking MySQL Database to Task #2 | Task #3
 
 - Open your local `PhpMyAdmin` 
