@@ -5,6 +5,6 @@ Technical Skills Test for Backend Interns 2020 at WebGen Studio  Company.
 
 
 ### Requirements
-- [PHP >= 7](http://php.net/)
+- [PHP >= v.7](http://php.net/)
 - [Xampp](https://www.apachefriends.org/)
 - [Git](https://git-scm.com/)
