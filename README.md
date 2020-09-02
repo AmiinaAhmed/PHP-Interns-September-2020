@@ -7,6 +7,7 @@ Technical Skills Tasks for Backend Interns 2020 at WebGen Studio  Company.
 ### Requirements
 - [PHP >= v.7](http://php.net/)
 - [Xampp >= v.3.2](https://www.apachefriends.org/)
+- [Any Editor ex. Sublime3](https://www.sublimetext.com/download?page_id=0.8496555757252253)
 - [Git](https://git-scm.com/)
 
 ### Clone GitHub repo for this project locally
