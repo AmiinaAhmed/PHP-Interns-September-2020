@@ -11,5 +11,5 @@ Technical Skills Test for Backend Interns 2020 at WebGen Studio  Company.
 
 ### Clone GitHub repo for this project locally
 
-use `git clone https://github.com/AmiinaAhmed/WebGenStudio-Intern-2020.git`
+use `git clone https://github.com/AmiinaAhmed/WebGenStudio-Intern-2020.git` or download .zip file
 
