@@ -2,7 +2,7 @@
 Technical Skills Tasks for Backend Interns 2020 at WebGen Studio  Company.
 
 ## Setting up
-
+Open each task file for setting up steps.
 
 ### Requirements
 - [PHP >= v.7](http://php.net/)
