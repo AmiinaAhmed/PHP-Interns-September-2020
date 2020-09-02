@@ -1,4 +1,6 @@
 ## Setting Up Steps
 
-here you can check out :
-tutorial to use it :
+- here you can check out :
+- tutorial to use it :
+
+## Screenshots
