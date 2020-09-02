@@ -1,0 +1,1 @@
+<?php header( 'Location: /task1.html' ) ;  ?>

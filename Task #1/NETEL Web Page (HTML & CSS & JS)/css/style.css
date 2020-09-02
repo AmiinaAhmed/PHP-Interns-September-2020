@@ -1,0 +1,197 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family:Lucida Sans Unicode;
+    background-color: black;
+
+}
+.container-fluid{
+overflow: hidden;
+}
+
+col{
+    border: 0px none tranparent;
+}
+p{
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: gray !important;
+}
+a:hover{
+    color: white !important;
+    cursor: pointer;
+    
+}
+.font-white{
+    color: white;
+}
+
+.font-gray{
+    color: gray;
+}
+
+.circle-pink{
+    background-color: #ff1a8c;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.width-full{
+    width: 100%;
+}
+
+
+/********************************************/
+
+@media screen and (min-width: 760px){
+  .card{
+    margin-top:-40px !important;
+    z-index: 1; /* Sit on top */
+    }
+}
+@media screen and (max-width: 760px){
+  .card{
+    margin-top:20px !important;
+    }
+}
+.circle{
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    align-self: center;
+}
+
+.fa-card{
+    color: white;
+    font-size: 30px;
+    display: block;
+    vertical-align: bottom;
+    margin-top:25%;
+}
+/*******************************************/
+#email{
+    background: transparent;
+    color: white !important;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+/**************************************/
+.square{
+    background-color: #595959;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+.square.fa{
+    color: white;
+    font-size: 15px;
+    display: block;
+    vertical-align: bottom;
+    margin-top:25%;
+}
+/**********************************nav*************************************/
+nav{
+    margin-top:20px;
+    margin-bottom:-130px;
+    z-index: 1; /* Sit on top */
+    border-left: 10px solid #ff1a8c;
+}
+.nav-item{
+    color: white !important;
+    
+}
+.nav-pills .nav-link{
+    border-radius: 0px;
+    height: 100%;
+    padding: 0.75rem;
+    margin: auto;    
+}
+.nav-pills .nav-link.active{
+    background-color: #595959;    
+}
+/*************************Lightbox**************************************/
+
+.lightbox {
+  cursor: pointer;
+  transition: 0.3s;
+    border-color: transparent;
+}
+
+.lightbox:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
